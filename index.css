@@ -1,0 +1,724 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.background {
+    background-image: url("./imagens/dpnews.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.section1-div {
+    width: 100%;
+    height: 100vh;
+}
+
+.menu-ul {
+    font-family: 'Noah Grotesque', sans-serif;
+    list-style-type: none;
+    margin-top: 6.5%;
+    font-size: 25px;
+}
+
+.menu-div {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15, 3, 58);
+}
+
+.logo-img {
+    width: 5%;
+    height: 5%;
+}
+
+.esportes-a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.esportes-a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.esportes-a:not(:hover) {
+    transition: 0.5s;
+}
+
+.economia-a {
+    text-decoration: none;
+    color: white;
+}
+
+.economia-a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.economia-a:not(:hover) {
+    transition: 0.5s;
+}
+
+.tecnologia-a {
+    text-decoration: none;
+    color: white;
+}
+
+.tecnologia-a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.tecnologia-a:not(:hover) {
+    transition: 0.5s;
+}
+
+.entretenimento-a {
+    text-decoration: none;
+    color: white;
+}
+
+.entretenimento-a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.entreterimento-a:not(:hover) {
+    transition: 0.5s;
+}
+
+.esport-li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.economia-li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.tecnologia-li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.entretenimento-li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.texto-h1 {
+    color: white;
+    text-shadow: 0px 0px 4px red;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noah Grotesque', sans-serif;
+    font-size: 30px;
+}
+
+.background-sec1 {
+    background-color: rgb(7,7,7);
+    height: 100vh;
+    width: 100%;
+}
+
+.esportes-h2-title {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Noah Grotesque';
+    font-size: 80px;
+}
+
+.realmadrid-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 2%;
+}
+
+.realmadrid-img {
+    height: 400px;
+    width: 618px;
+}
+
+.realmadrid-p {
+    width: 100%;
+}
+
+.estevao-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.estevao-img {
+    height: 400px;
+    width: 600px;
+}
+
+.estevao-p {
+    width: 100%;
+}
+
+.cr7-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 7%;
+}
+
+.cr7-img {
+    height: 400px;
+    width: 600px;
+}
+
+.cr7-p {
+    width: 100%;
+}
+
+.background-sec1 {
+    display: flex;
+}
+
+.esportes-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: opacity(40%);
+}
+
+time, p, h3 {
+    color: aliceblue;
+    font-family: 'Noah Grotesque';
+}
+
+.background-sec2 {
+    background-color: rgb(7, 7, 7);
+    height: 100vh;
+    width: 100%;
+}
+
+.economia-h2-title {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Noah Grotesque';
+    font-size: 80px;
+}
+
+.dolar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 2%;
+}
+
+.dolar-img {
+    height: 400px;
+    width: 618px;
+}
+
+.dolar-p {
+    width: 80%;
+}
+
+.fazenda-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.fazenda-img {
+    height: 400px;
+    width: 600px;
+}
+
+.fazenda-p {
+    width: 80%;
+}
+
+.inflacao-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 7%;
+}
+
+.inflacao-img {
+    height: 400px;
+    width: 600px;
+}
+
+.inflacao-p {
+    width: 81%;
+}
+
+.background-sec2 {
+    display: flex;
+}
+
+.economia-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: opacity(40%);
+}
+
+.background-sec3 {
+    background-color: rgb(7, 7, 7);
+    height: 100vh;
+    width: 100%;
+}
+
+.tecnologia-h2-title {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Noah Grotesque', sans-serif;
+    font-size: 80px;
+}
+
+.ps5-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 2%
+}
+
+.ps5-img {
+    height: 400px;
+    width: 618px;
+}
+
+.ps5-p {
+    width: 80%;
+}
+
+.x-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%
+}
+
+.x-img {
+    height: 400px;
+    width: 600px;
+}
+
+.x-p {
+    width: 85%;
+}
+
+.jonbet-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 7%
+}
+
+.jonbet-img {
+    height: 400px;
+    width: 600px;
+}
+
+.jonbet-p {
+    width: 80%;
+}
+
+.background-sec3 {
+    display: flex;
+}
+
+.tecnologia-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: opacity(40%);
+}
+
+.background-sec4 {
+    background-color: rgb(7, 7, 7);
+    height: 100vh;
+    width: 100%;
+}
+
+.entretenimento-h2-title {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Noah Grotesque';
+    font-size: 80px;
+}
+
+.outerbanks-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 2%
+}
+
+.outerbanks-img {
+    height: 400px;
+    width: 618px;
+}
+
+.outerbanks-p {
+    width: 80%;
+}
+
+.cazetv-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 5%
+}
+
+.cazetv-img {
+    height: 400px;
+    width: 600px;
+}
+
+.cazetv-p {
+    width: 80%;
+}
+
+.primevideo-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+    left: 7%
+}
+
+.primevideo-img {
+    height: 400px;
+    width: 600px;
+}
+
+.primevideo-p {
+    width: 80%;
+}
+
+.background-sec4 {
+    display: flex;
+}
+
+.entretenimento-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: opacity(40%);
+}
+
+.leia-realmadrid {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-realmadrid:hover {
+    padding: 2px;
+    box-shadow: 0px, 0px, 4px red;
+    transition: 0.5s;
+}
+
+.leia-realmadrid:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-estevao {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-estevao:hover {
+    padding: 2px;
+    box-shadow: 0px, 0px, 4px red;
+    transition: 0.5s;
+}
+
+.leia-estevao:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-cr7 {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-cr7:hover {
+    padding: 2px;
+    box-shadow: 0px, 0px, 4px red;
+    transition: 0.5s;
+}
+
+.leia-cr7:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-dolar {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-dolar:hover {
+    padding: 2px;
+    box-shadow: 0px, 0px, 4px red;
+    transition: 0.5s;
+}
+
+.leia-dolar:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-fazenda {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-fazenda:hover {
+    padding: 2px;
+    box-shadow: 0px, 0px, 4px red;
+    transition: 0.5s;
+}
+
+.leia-fazenda:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-inflacao {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-inflacao:hover {
+    padding: 2px;
+    box-shadow: 0px, 0px, 4px red;
+    transition: 0.5s;
+}
+
+.leia-inflacao:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-ps5 {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-ps5:hover {
+    padding: 2px;
+    box-shadow: 0px, 0px, 4px red;
+    transition: 0.5s;
+}
+
+.leia-ps5:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-x {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-x:hover {
+    padding: 2px;
+    box-shadow: 0px, 0px, 4px red;
+    transition: 0.5s;
+}
+
+.leia-x:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-jonbet {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-jonbet:hover {
+    padding: 2px;
+    box-shadow: 0px, 0px, 4px red;
+    transition: 0.5s;
+}
+
+.leia-jonbet:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-outerbanks {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-outerbanks:hover {
+    padding: 2px;
+    box-shadow: 0px, 0px, 4px red;
+    transition: 0.5s;
+}
+
+.leia-outerbanks:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-cazetv {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-cazetv:hover {
+    padding: 2px;
+    box-shadow: 0px, 0px, 4px red;
+    transition: 0.5s;
+}
+
+.leia-cazetv:not(:hover) {
+    transition: 0.5s;
+}
+
+.leia-primevideo {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+.leia-primevideo:hover {
+    padding: 2px;
+    box-shadow: 0px, 0px, 4px red;
+    transition: 0.5s;
+}
+
+.leia-primevideo:not(:hover) {
+    transition: 0.5s;
+}
